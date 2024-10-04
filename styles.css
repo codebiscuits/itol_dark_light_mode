@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100%;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+#stuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+h1, p {
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    margin: 0;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 1px rgb(127, 127, 127) solid;
+    border-radius: 3px;
+}
+
+div > p {
+    margin-top: 25px;
+}
+
+/*light mode*/
+
+.body-light {
+    background-color: rgb(200, 200, 200);
+}
+
+.header-light {
+    background-color: rgb(160, 160, 160);
+    border: 1px rgb(127, 127, 127) solid;
+}
+
+.button-light {
+    background-color: rgb(160, 160, 160);
+}
+
+.box-light {
+    background-color: rgb(180, 180, 180);
+}
+
+.text-light {
+    color: rgb(20, 20, 20);
+}
+
+/*dark mode*/
+
+.body-dark {
+    background-color: rgb(55, 55, 55);
+}
+
+.header-dark {
+    background-color: rgb(80, 80, 80);
+    border: 1px rgb(127, 127, 127) solid;
+}
+
+.main-dark {
+    background-color: rgb(55, 55, 55);
+}
+
+.button-dark {
+    background-color: rgb(80, 80, 80);
+}
+
+.box-dark {
+    background-color: rgb(60, 60, 60);
+}
+
+.text-dark {
+    color: rgb(235, 235, 235);
+}
